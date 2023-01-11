@@ -1,6 +1,7 @@
-//user logic
+document.querySelector('.switch-light').addEventListener('click', function() {
+  document.body.style.backgroundColor = 'white';
+});
 
-let body = 
-let darkmode = document.getElementsByClassName("dark");
-
-
+document.querySelector('.switch-dark').addEventListener('click', function() {
+  document.body.style.backgroundColor = 'gray';
+});
